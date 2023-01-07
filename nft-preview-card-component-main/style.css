@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.main{
+    width: 900px;
+    height: 650px;
+    background-color: hsl(217, 54%, 11%);
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.container{
+    width: 300px;
+    height: 550px;
+    margin: 30px auto;
+    font-size: 18px;
+    padding: 20px;
+   border-radius: 5%;
+   background-color: hsl(216, 50%, 16%);
+}
+
+.equilibrium{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    border-radius: 5%;
+    
+}
+
+.info{
+    text-align: left;
+    padding: 0;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+   
+}
+.about{
+    margin: 0;
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+    padding: 0px 0px 2px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+h2:hover{
+    
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+.details {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2rem;
+    align-items: center;
+    margin-top: 1rem;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 1rem;
+    
+  }
+  
+  .worth,
+  .duration {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+.worth{
+    
+    color: hsl(178, 100%, 50%);
+
+}
+
+.details-img{
+    
+    height: 20px;
+    margin-right: 0;
+    padding: 0;
+}
+
+.profile-owner{
+    display: inline-flex;
+    padding-top: 10px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+     
+}
+
+
+.jules{
+    color: hsl(0, 0%, 100%);
+
+}
+
+.jules:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+     font-size: 11px; 
+    text-align: center;
+    color: hsl(215, 51%, 70%); 
+ 
+   
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media ( max-width: 680px) {
+    .main{
+        width: 400px;
+        height: 700px;
+        background-color: hsl(217, 54%, 11%);
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .container{
+        width: 300px;
+        height: 650px;
+        background-color: hsl(216, 50%, 16%);
+        margin: 10px;
+        font-size: 18px;
+        padding: 20px;
+       border-radius: 5%;
+      
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        gap: 1rem;
+        align-items: center;
+        margin-top: 1rem;
+        border-bottom: 1px solid hsl(215, 32%, 27%);
+        padding-bottom: 1rem;
+        
+      }
+      
+      .worth,
+      .duration {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+
+    .attribution {
+       visibility: hidden; 
+        
+   }
+
+}
